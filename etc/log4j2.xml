@@ -3,7 +3,7 @@
   <!-- Секция аппендеров -->
   <Appenders>
     <!-- Файловый аппендер -->
-    <File name="file" fileName="log.log">
+    <File name="file" fileName="C:/apache-tomcat-9.0.8/webapps/logApp.log">
       <PatternLayout>
         <Pattern>%d %p %c{1.} [%t] %m %ex%n</Pattern>
       </PatternLayout>

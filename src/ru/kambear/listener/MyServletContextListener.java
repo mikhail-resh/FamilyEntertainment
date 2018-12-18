@@ -9,12 +9,11 @@ public class MyServletContextListener implements ServletContextListener{
 	private static Logger log = LogManager.getRootLogger();
 
 	public void contextInitialized(ServletContextEvent sce){
-		System.out.println("Servlet Started");
-		log.debug("Servlet started");
+		
 	}
 
 	public void contextDestroyed(ServletContextEvent sce){
-		log.debug("Servlet destroyed");
+		
 	}
 
 }

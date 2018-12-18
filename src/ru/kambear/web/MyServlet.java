@@ -21,7 +21,7 @@ public class MyServlet extends HttpServlet{
 
 		if (isMember){
 			request.setAttribute("memberName",name);
-			RequestDispatcher disp = request.getRequestDispatcher("Photoes.jsp");
+			RequestDispatcher disp = request.getRequestDispatcher("PhotoEvents.jsp");
 			disp.forward(request,response);
 		}else{
 			RequestDispatcher disp = request.getRequestDispatcher("form.html");
